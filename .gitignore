@@ -1,0 +1,32 @@
+# General
+.DS_Store
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Frontend (Next.js / Node)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend (Python)
+backend/.venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+__pycache__/
+*.py[cod]
+
+# Mac system files anywhere
+**/.DS_Store
