@@ -30,3 +30,10 @@ __pycache__/
 
 # Mac system files anywhere
 **/.DS_Store
+
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.db
+.env
+__pycache__/
+node_modules/
